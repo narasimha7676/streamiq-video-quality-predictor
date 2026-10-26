@@ -1,0 +1,76 @@
+{
+  "accuracy": 0.579,
+  "macro_f1": 0.5543,
+  "class_order": [
+    "Healthy",
+    "Buffering",
+    "Poor Quality",
+    "Playback Failure"
+  ],
+  "confusion_matrix": [
+    [
+      155,
+      83,
+      8,
+      0
+    ],
+    [
+      116,
+      240,
+      110,
+      2
+    ],
+    [
+      12,
+      66,
+      173,
+      9
+    ],
+    [
+      1,
+      3,
+      11,
+      11
+    ]
+  ],
+  "classification_report": {
+    "Healthy": {
+      "precision": 0.545774647887324,
+      "recall": 0.6300813008130082,
+      "f1-score": 0.5849056603773585,
+      "support": 246.0
+    },
+    "Buffering": {
+      "precision": 0.6122448979591837,
+      "recall": 0.5128205128205128,
+      "f1-score": 0.5581395348837209,
+      "support": 468.0
+    },
+    "Poor Quality": {
+      "precision": 0.5728476821192053,
+      "recall": 0.6653846153846154,
+      "f1-score": 0.6156583629893239,
+      "support": 260.0
+    },
+    "Playback Failure": {
+      "precision": 0.5,
+      "recall": 0.4230769230769231,
+      "f1-score": 0.4583333333333333,
+      "support": 26.0
+    },
+    "accuracy": 0.579,
+    "macro avg": {
+      "precision": 0.5577168069914282,
+      "recall": 0.5578408380237648,
+      "f1-score": 0.5542592228959342,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.5827315729761731,
+      "recall": 0.579,
+      "f1-score": 0.5770839358223024,
+      "support": 1000.0
+    }
+  },
+  "validation_note": "Held-out split of synthetic data; not real-world performance."
+}
